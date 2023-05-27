@@ -20,7 +20,7 @@ const {
 } = storeToRefs(conversationsStore);
 
 useHead({
-    title: `${conversationTitle.value} - PandoraAI`,
+    title: `${conversationTitle.value} - Goodhub from PandoraAI`,
     meta: [
         {
             name: 'viewport',
@@ -36,7 +36,7 @@ onMounted(() => {
 
 <template>
     <a
-        href="https://github.com/waylaidwanderer/PandoraAI"
+        href="https://github.com/mjackie946/PandoraAI"
         target="_blank"
         id="fork-corner"
         class="fork-corner fc-size-small fc-pos-tr fc-animate fc-theme-github"
@@ -94,9 +94,9 @@ onMounted(() => {
             </main>
             <footer class="px-3 pb-6 text-center">
                 <span class="text-xs font-light text-slate-400">
-                    powered by
-                    <a href="https://github.com/waylaidwanderer/node-chatgpt-api" target="_blank">
-                        https://github.com/waylaidwanderer/node-chatgpt-api
+                    Goodhub
+                    <a href="https://www.goodhub.cn/blog" target="_blank">
+                        Blog
                     </a>
                 </span>
             </footer>
